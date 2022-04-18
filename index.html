@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working with Arrays: The Eternals</title>
+    <script src ="eternals.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+        <h1 class="eternalsInfo"></h1>
+        <div class="eternalsList"></div>
+
+        <div class="selectEternal">
+            <label for="eternalAttribute">What attribute skill are you looking for?</label>
+
+            <input type="text" id="eternalAttribute" name="eternalAttribute" maxlength="15" size="15"></input>
+
+            <button onclick="showInfo()">Click to Search!</button>
+
+            <p class="selectedEternalInfo"></p>
+            
+            <img class="selectedEternalPic" alt="Eternal" />
+
+        </div>
+
+    </div>
+</body>
+</html>
