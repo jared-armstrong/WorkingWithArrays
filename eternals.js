@@ -58,7 +58,7 @@ const showInfo = () => {
     let selectedEternalInfo = document.querySelector(".selectedEternalInfo");
     let eternalPic = document.querySelector(".selectedEternalPic");
     // set the image
-    eternalPic.src = eternal.pic;
+    eternalPic.src = eternalsData[userInput].pic;
 
     let eternal = eternalsData.find((eternal) => {
             if (eternal.power == userInput) {
@@ -81,7 +81,7 @@ allEternalsInfo += `</ul>`;
 
 allEternalsInfo += `<br> You can choose: `;
 eternalsData.forEach((eternalCharacter) => {
-    allEternalsInfo += eternalCharacter.power + ' ';
+    allEternalsInfo += eternalCharacter.power + ', ';
 });
 
 eternalsInfo.innerHTML = allEternalsInfo;
