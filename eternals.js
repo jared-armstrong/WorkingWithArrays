@@ -5,7 +5,7 @@ const eternalsData = [
 
         power: "swordsman", 
 
-        pic: "images2\\blackKnight.jpg"
+        pic: "blackKnight.jpg"
 
     },
 
@@ -14,7 +14,7 @@ const eternalsData = [
 
         power: "levitation",
 
-        pic: "images2\\ikaris.jpg"
+        pic: "ikaris.jpg"
 
     },
 
@@ -23,7 +23,7 @@ const eternalsData = [
 
         power: "manipulation",
 
-        pic: "images2\\thena.jpg"
+        pic: "thena.jpg"
 
     },
 
@@ -32,7 +32,7 @@ const eternalsData = [
         
         power: "speed",
 
-        pic: "images2\\Makkari_1.jpg"
+        pic: "Makkari_1.jpg"
 
     },
 
@@ -41,7 +41,7 @@ const eternalsData = [
 
         power: "immunity",
 
-        pic: "images2\\blade.png"
+        pic: "blade.png"
 
     }
 
