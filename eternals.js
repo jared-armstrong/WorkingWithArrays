@@ -57,8 +57,7 @@ const showInfo = () => {
     
     let selectedEternalInfo = document.querySelector(".selectedEternalInfo");
     let eternalPic = document.querySelector(".selectedEternalPic");
-    // set the image
-    eternalPic.src = eternalsData[userInput].pic;
+    
 
     let eternal = eternalsData.find((eternal) => {
             if (eternal.power == userInput) {
@@ -68,6 +67,8 @@ const showInfo = () => {
             }
     )
     selectedEternalInfo.textContent = eternal.name + " has the skill of " + userInput;
+    eternalPic.src = eternal.pic;
+    selectedEternalPic = eternal.pic;
 };
 
 let eternalsInfo = document.querySelector(".eternalsInfo");
